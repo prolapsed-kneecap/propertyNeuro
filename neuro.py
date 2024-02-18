@@ -2,11 +2,11 @@ import numpy
 import scipy
 import pandas as pd
 import tabulate
+import json
+
 
 raw_data = open("raw_data.txt", "r+", encoding="utf-8")
 data = open("data.txt", "w+", encoding="utf-8")
-
-import json
 
 with open('raw_data.txt', 'r', encoding='utf-8') as file:
     raw = file.readlines()
